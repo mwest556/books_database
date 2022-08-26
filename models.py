@@ -2,7 +2,7 @@ from sqlalchemy import (create_engine, Column, Integer, String, Date)
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-#create a databse
+#create a database
 # books.db
 # create a model
 # title, author, date published, price
