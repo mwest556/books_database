@@ -19,7 +19,7 @@ class Book(Base):
     id = Column(Integer, primary_key=True)
     title = Column('Title', String)
     author = Column('Author', String)
-    published_date = Column('Published', Date)
+    published_date = Column('Published_Date', Date)
     price = Column('Price', Integer)
 
     def __repr__(self):
